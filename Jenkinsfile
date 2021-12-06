@@ -7,14 +7,11 @@ pipeline {
     stages{
         stage('Pruebas') {
             steps {
-                script {
-                branchEnv = BRANCH_NAME
                 sh """
-                docker run --privileged -d --network host -v "\$(pwd)":/liquibase/files-${branchEnv} --name liquibase-${branchEnv}-bd -e TZ="America/Bogota" liquibase/liquibase tail -f /dev/null
-                docker rm -f liquibase-${branchEnv}-bd
+                docker run --privileged -d --network host -v "\$(pwd)":/liquibase/files-$BRANCH_NAME --name liquibase-$BRANCH_NAME-bd -e TZ="America/Bogota" liquibase/liquibase tail -f /dev/null
+                docker rm -f liquibase-$BRANCH_NAME-bd
                 docker ps
                 """
-                }
             }
         }
     }
