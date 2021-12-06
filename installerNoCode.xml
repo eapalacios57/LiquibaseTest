@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd
+    http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.2.xsd ">
+
+    <!-- req_001 -->
+    <include file="Tablas/DDL/core_persona_dat_create_req_001.sql" relativeToChangelogFile="true"/>
+    <include file="Tablas/DML/core_persona_dat_insert_req_001.sql" relativeToChangelogFile="true"/>
+
+     <!-- req_002 -->
+    <include file="Tablas/DDL/core_ciudad_dat_create_req_002.sql" relativeToChangelogFile="true"/>
+    <include file="Tablas/DML/core_ciudad_dat_insert_req_002.sql" relativeToChangelogFile="true"/>
+    
+    <!-- req_003 -->
+    <include file="Tablas/DDL/core_mascota_dat_create_req_003.sql" relativeToChangelogFile="true"/>
+    <include file="Tablas/DML/core_mascota_dat_insert_req_003.sql" relativeToChangelogFile="true"/>
+
+    <!-- req_004 -->
+    <include file="Tablas/DDL/core_mascota_dat_alter_req_001.sql" relativeToChangelogFile="true"/>
+    <include file="Tablas/DML/core_mascota_dat_insert_req_004.sql" relativeToChangelogFile="true"/>
+</databaseChangeLog>

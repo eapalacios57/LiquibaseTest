@@ -1,0 +1,42 @@
+{
+    "dev": {
+        "propertiesWithCodeNameFile": "installerwithCode.properties",
+        "changeLogFileWithCode": "changeLogFile=installerWithCode.xml",
+        "propertiesNoCodeNameFile": "installerNoCode.properties",
+        "changeLogFileNoCode": "changeLogFile=installerNoCode.xml",
+        "url": "jdbc:oracle:thin:@//10.1.20.5:1521/TRON",
+        "idDataBaaseCredentials" : "user_db_dev",
+        "classpath": "classpath: drivers/oracle/ojdbc8-12.2.0.1.jar",
+        "logLevel": "logLevel: DEBUG",
+        "databaseChangeLogTableName": "databaseChangeLogTableName: STOREDPROCCHANGELOG",
+        "liquibaseProLicenseKey": "liquibaseProLicenseKey:ABwwGgQUb6nQyhQwCjitnth2fPbLvzzx60ICAgQA1mpm08iHLafGGwjwbFcWR4KUidauVyK/6kVLlennaqPiZEoLKHifG+TnVftEj++LdG5m3TcjLpXdnaROPbXxjS28gHrr8QXziZZoS3W3uRfXA0Ifm63ScyB/WZkC55wfRx94NSDQTW2cPjsSraS4oUW+h2btYcAIpmDD5MnB9s8Mse7Hkd0vMeGadWJ7S5IcCgNz7DN05mvLnfTlulW1c+b1be6gbqsa0ygfSU2UeSh0Xb1EDBBHYzWtFD+KN1LaE6ivSazbLsNu1RLewZfeNT/uYp+IjHzM9SsD64gRvp+idvoun9ySBHrk0xfCjQ8sGFf5BDcHEjsNCu+ppZRwMAUbqLKSMKYTe13mFHNI88GCqUQI3MK1iuoWzbapmX86E5H9OPIz7H6LIz9D0d837TFyGSuNM84V+bke/HUijTxH05FMD3N9PmgH7L3uAhD1hptjpi1czdQ56iU5uXD8Ix6yxaA0uOxHt8OZuKVRYmiTIX1gtRBAZkoRmn4J5x9renDq/bhYLfcn140lfUHMPswP7SrR2bonbNcWvLq919sHJkkXdzxvL6V69KOSMqJP+L8n6PCcCbH1b2AVv3Thn38L8zUuOhmafqAocP9ZYUGkW3v378hE/9KaP8tABo/Zr3cJZpHqv++aAXhYl2ojDA==",
+        "liquibaseHubMode": "liquibase.hub.mode=off"
+
+    },
+    "stage": {
+        "propertiesWithCodeNameFile": "installerWithCode.properties",
+        "changeLogFileWithCode": "changeLogFile=installerWithCode.xml",
+        "propertiesNoCodeNameFile": "installerNoCode.properties",
+        "changeLogFileNoCode": "changeLogFile=installerNoCode.xml",
+        "url": "jdbc:oracle:thin:@//190.85.106.202:1523/ORCLCDB.localdomain",
+        "idDataBaaseCredentials" : "user_db_stg",
+        "classpath": "classpath: drivers/oracle/ojdbc8-12.2.0.1.jar",
+        "logLevel": "logLevel: DEBUG",
+        "databaseChangeLogTableName": "databaseChangeLogTableName: STOREDPROCCHANGELOG",
+        "liquibaseProLicenseKey": "liquibaseProLicenseKey:ABwwGgQUb6nQyhQwCjitnth2fPbLvzzx60ICAgQA1mpm08iHLafGGwjwbFcWR4KUidauVyK/6kVLlennaqPiZEoLKHifG+TnVftEj++LdG5m3TcjLpXdnaROPbXxjS28gHrr8QXziZZoS3W3uRfXA0Ifm63ScyB/WZkC55wfRx94NSDQTW2cPjsSraS4oUW+h2btYcAIpmDD5MnB9s8Mse7Hkd0vMeGadWJ7S5IcCgNz7DN05mvLnfTlulW1c+b1be6gbqsa0ygfSU2UeSh0Xb1EDBBHYzWtFD+KN1LaE6ivSazbLsNu1RLewZfeNT/uYp+IjHzM9SsD64gRvp+idvoun9ySBHrk0xfCjQ8sGFf5BDcHEjsNCu+ppZRwMAUbqLKSMKYTe13mFHNI88GCqUQI3MK1iuoWzbapmX86E5H9OPIz7H6LIz9D0d837TFyGSuNM84V+bke/HUijTxH05FMD3N9PmgH7L3uAhD1hptjpi1czdQ56iU5uXD8Ix6yxaA0uOxHt8OZuKVRYmiTIX1gtRBAZkoRmn4J5x9renDq/bhYLfcn140lfUHMPswP7SrR2bonbNcWvLq919sHJkkXdzxvL6V69KOSMqJP+L8n6PCcCbH1b2AVv3Thn38L8zUuOhmafqAocP9ZYUGkW3v378hE/9KaP8tABo/Zr3cJZpHqv++aAXhYl2ojDA==",
+        "liquibaseHubMode": "liquibase.hub.mode=off"
+    },
+    "master": {
+        "propertiesWithCodeNameFile": "installerWithCode.properties",
+        "changeLogFileWithCode": "changeLogFile=installerWithCode.xml",
+        "propertiesNoCodeNameFile": "installerNoCode.properties",
+        "changeLogFileNoCode": "changeLogFile=installerNoCode.xml",
+        "url": "jdbc:oracle:thin:@//190.85.106.202:1523/ORCLCDB.localdomain",
+        "idDataBaaseCredentials" : "user_db_prod",
+        "classpath": "classpath: drivers/oracle/ojdbc8-12.2.0.1.jar",
+        "logLevel": "logLevel: DEBUG",
+        "databaseChangeLogTableName": "databaseChangeLogTableName: STOREDPROCCHANGELOG",
+        "liquibaseProLicenseKey": "liquibaseProLicenseKey:ABwwGgQUb6nQyhQwCjitnth2fPbLvzzx60ICAgQA1mpm08iHLafGGwjwbFcWR4KUidauVyK/6kVLlennaqPiZEoLKHifG+TnVftEj++LdG5m3TcjLpXdnaROPbXxjS28gHrr8QXziZZoS3W3uRfXA0Ifm63ScyB/WZkC55wfRx94NSDQTW2cPjsSraS4oUW+h2btYcAIpmDD5MnB9s8Mse7Hkd0vMeGadWJ7S5IcCgNz7DN05mvLnfTlulW1c+b1be6gbqsa0ygfSU2UeSh0Xb1EDBBHYzWtFD+KN1LaE6ivSazbLsNu1RLewZfeNT/uYp+IjHzM9SsD64gRvp+idvoun9ySBHrk0xfCjQ8sGFf5BDcHEjsNCu+ppZRwMAUbqLKSMKYTe13mFHNI88GCqUQI3MK1iuoWzbapmX86E5H9OPIz7H6LIz9D0d837TFyGSuNM84V+bke/HUijTxH05FMD3N9PmgH7L3uAhD1hptjpi1czdQ56iU5uXD8Ix6yxaA0uOxHt8OZuKVRYmiTIX1gtRBAZkoRmn4J5x9renDq/bhYLfcn140lfUHMPswP7SrR2bonbNcWvLq919sHJkkXdzxvL6V69KOSMqJP+L8n6PCcCbH1b2AVv3Thn38L8zUuOhmafqAocP9ZYUGkW3v378hE/9KaP8tABo/Zr3cJZpHqv++aAXhYl2ojDA==",
+        "liquibaseHubMode": "liquibase.hub.mode=off"
+    }
+}
