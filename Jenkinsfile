@@ -3,8 +3,9 @@ pipeline {
         node {
             label 'Linux'
         }
+    }
     stages{
-        stage {
+        stage('Pruebas') {
             steps {
                 script {
                 branchEnv = BRANCH_NAME
@@ -16,6 +17,5 @@ pipeline {
                 }
             }
         }
-    }
     }
 }
