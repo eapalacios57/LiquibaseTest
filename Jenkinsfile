@@ -1,3 +1,4 @@
+def PASSW = "password"
 pipeline {
     agent {
         node {
